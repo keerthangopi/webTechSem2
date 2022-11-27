@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { saveShippingAddress } from '../actions/CartAction';
+import { saveShippingAddress } from '../actions/cartAction';
 import CheckoutSteps from '../components/CheckoutSteps'
 import "../styles/ShippingAddress.css"
 
